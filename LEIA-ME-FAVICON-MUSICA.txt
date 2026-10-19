@@ -1,0 +1,45 @@
+TREINAMENTO PET CRIS ALVES — FAVICON + MÚSICA NO VÍDEO
+======================================================
+
+ALTERAÇÕES REALIZADAS
+
+1. FAVICON
+   Símbolo da logo oficial da Cris Alves, em arquivos separados:
+   - assets/favicon-cris-alves.ico (16, 32, 48 e 64 px)
+   - assets/favicon-cris-alves.png (192 x 192 px)
+   - assets/apple-touch-icon.png (180 x 180 px)
+
+   No <head> do index.html foram instaladas estas tags:
+   <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-cris-alves.png">
+   <link rel="icon" type="image/x-icon" href="assets/favicon-cris-alves.ico">
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+2. MÚSICA INCORPORADA AO VÍDEO
+   Arquivo atualizado: assets/video-cris.mp4
+   - Vídeo original mantido sem recodificação (H.264).
+   - Áudio original mantido em volume de 90%.
+   - Música enviada incorporada como fundo, em volume de 24%.
+   - Introdução da música com fade-in curto e fade-out nos 0,5 segundo finais.
+   - Áudio final codificado em AAC estéreo a 48 kHz.
+   - Áudio e vídeo iniciam no tempo zero.
+   - Duração do vídeo: 13.216978 s.
+   - Duração do áudio: 13.217000 s.
+   - Diferença de duração: 0.022 ms.
+   - Não depende de código JS para sincronização.
+
+   A tag de vídeo em index.html está assim:
+   <video controls playsinline preload="metadata" poster="assets/video-poster.webp">
+      <source src="assets/video-cris.mp4?v=musica-20261019" type="video/mp4">
+      Seu navegador não suporta vídeo HTML5.
+   </video>
+
+COMO UTILIZAR
+   Extraia o ZIP mantendo o arquivo index.html e a pasta assets juntos.
+   Para publicar, envie os arquivos à hospedagem preservando os caminhos.
+   O áudio começa quando o visitante clica em Reproduzir (não há autoplay).
+   Se o favicon antigo continuar visível, atualize a página sem cache.
+
+NOTAS
+   O arquivo MP3 separado não é necessário para o site: a música está dentro do MP4.
+   As fotos, o formulário, o WhatsApp, a logo e a timeline foram mantidos.
+   Verifique a autorização/licença de uso da faixa musical antes de publicar.

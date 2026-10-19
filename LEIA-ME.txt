@@ -1,0 +1,22 @@
+TREINAMENTO PET CRIS ALVES — VERSÃO FINAL PARA ENTREGA AO CLIENTE
+
+Esta versão inclui:
+- Adestramento, Banho & Tosa e Hotel Pet
+- Curso de Adestramento “Em breve”
+- Formulário de agendamento que abre o WhatsApp com todos os dados preenchidos
+- WhatsApp: (21) 96422-4805
+- Instagram: @adestramentocris
+- Fotos e vídeo reais enviados pela cliente
+- Ajustes responsivos para preservar o rosto da Cris e os pets
+- SEO básico, menu mobile e botão flutuante de WhatsApp
+
+Arquivos:
+- index.html
+- assets/
+- GUIA-PROJETO.md
+
+PUBLICAÇÃO:
+Envie index.html e a pasta assets para a mesma pasta na hospedagem.
+
+IMPORTANTE:
+A solicitação de agendamento só é confirmada depois da conversa no WhatsApp.

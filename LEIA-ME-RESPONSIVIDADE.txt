@@ -1,0 +1,27 @@
+TREINAMENTO PET CRIS ALVES - VERSÃO RESPONSIVA CORRIGIDA
+
+O que foi corrigido:
+- Título principal agora quebra linhas sem estourar as bordas do celular.
+- Grades com minmax(0, 1fr) e min-width:0 para evitar expansão de colunas.
+- Header e menu mobile adaptáveis a celulares, tablets e modo paisagem.
+- Menu mobile com fechamento ao clicar fora, em um link ou pressionar Escape.
+- Galeria mostra as fotos completas com legendas abaixo, sem tapar rostos.
+- Fotos principais, sobre e curso sem cortes agressivos.
+- Formulário de agendamento ajustado para o celular e mantido com integração WhatsApp.
+- Vídeo responsivo, respeitando sua proporção.
+- Cards, textos, CTAs e rodapé adaptáveis conforme a largura da tela.
+- Cursor de patinha nativo do ZIP preservado para computadores.
+
+VERIFICAÇÃO:
+Testado via navegador Chromium com larguras de 280, 320, 344, 360, 375,
+390, 430, 540, 600, 640, 641, 667, 768, 820, 844, 920, 980, 981,
+1024, 1280, 1366 e 1440 pixels, sem scroll horizontal indesejado.
+Formulário de WhatsApp e menu mobile também verificados funcionalmente.
+
+PUBLICAÇÃO:
+Envie index.html e todos os arquivos da pasta assets/ para a hospedagem,
+preservando a estrutura de diretórios.
+
+ATENÇÃO:
+A fonte online depende da disponibilidade do serviço de fontes.
+Faça uma conferência visual final no endereço publicado e dispositivos reais.

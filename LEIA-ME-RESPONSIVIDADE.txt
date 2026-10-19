@@ -10,7 +10,7 @@ O que foi corrigido:
 - Formulário de agendamento ajustado para o celular e mantido com integração WhatsApp.
 - Vídeo responsivo, respeitando sua proporção.
 - Cards, textos, CTAs e rodapé adaptáveis conforme a largura da tela.
-- Cursor de patinha nativo do ZIP preservado para computadores.
+- Cursor padrão do navegador mantido em computadores, tablets e celulares.
 
 VERIFICAÇÃO:
 Testado via navegador Chromium com larguras de 280, 320, 344, 360, 375,

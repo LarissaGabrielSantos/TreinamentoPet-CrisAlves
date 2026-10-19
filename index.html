@@ -570,11 +570,7 @@
       position:relative;overflow:hidden;
       border-radius:34px 60px 34px 60px;
     }
-    .cta-panel::after{
-      content:"🐾";position:absolute;right:24px;top:10px;font-size:72px;
-      opacity:.055;transform:rotate(18deg);pointer-events:none;
-    }
-    .booking-form{position:relative}
+.booking-form{position:relative}
     .booking-form::before{
       content:"";position:absolute;right:22px;top:-8px;width:52px;height:8px;
       background:var(--orange);border-radius:999px;transform:rotate(-3deg);
@@ -908,19 +904,6 @@
       .reveal{opacity:1;transform:none}
     }
 
-    /* Cursor de patinha — recurso nativo CSS, sem JS nem elementos flutuantes.
-       PNG 32x32, hotspot (7,5); cliques/hover seguem 100% nativos. */
-    @media (hover: hover) and (pointer: fine) {
-      html, body, body * {
-        cursor: url("assets/cursor-patinha-32.png") 7 5, auto !important;
-      }
-      /* Nos campos de digitação, mantém o cursor de texto para acessibilidade. */
-      input:not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]),
-      textarea,
-      [contenteditable="true"] {
-        cursor: text !important;
-      }
-    }
   
     /* ============================================================
        CORREÇÕES DE RESPONSIVIDADE — revisão de entrega ao cliente

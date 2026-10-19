@@ -882,6 +882,20 @@
       *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
       .reveal{opacity:1;transform:none}
     }
+
+    /* Cursor de patinha — recurso nativo CSS, sem JS nem elementos flutuantes.
+       PNG 32x32, hotspot (7,5); cliques/hover seguem 100% nativos. */
+    @media (hover: hover) and (pointer: fine) {
+      html, body, body * {
+        cursor: url("assets/cursor-patinha-32.png") 7 5, auto !important;
+      }
+      /* Nos campos de digitação, mantém o cursor de texto para acessibilidade. */
+      input:not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]),
+      textarea,
+      [contenteditable="true"] {
+        cursor: text !important;
+      }
+    }
   </style>
 
   <script type="application/ld+json">

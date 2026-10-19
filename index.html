@@ -17,7 +17,7 @@
   <link rel="preload" as="image" href="assets/logo-cris-alves-transparente.webp">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-cris-alves.png">
   <link rel="icon" type="image/x-icon" href="assets/favicon-cris-alves.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"><rect width='64' height='64' rx='16' fill='%23214c3a'/><text x='32' y='43' font-size='34' text-anchor='middle'>🐾</text></svg>">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
   <style>
     :root{
@@ -148,8 +148,31 @@
     .nav-links{display:flex;align-items:center;gap:25px;font-weight:700;font-size:.9rem}
     .nav-links a:not(.btn):hover{color:var(--green-700)}
     .menu-btn{
-      display:none;width:44px;height:44px;border-radius:14px;border:1px solid var(--line);
-      background:var(--white);color:var(--green-900);align-items:center;justify-content:center
+      display:none;
+      flex:0 0 44px;
+      width:44px;
+      height:44px;
+      padding:0;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:var(--white);
+      color:var(--green-900);
+      align-items:center;
+      justify-content:center;
+      line-height:1;
+      cursor:pointer;
+    }
+    .menu-btn svg{
+      display:block;
+      flex:0 0 24px;
+      width:24px;
+      height:24px;
+      max-width:24px;
+      max-height:24px;
+    }
+    .menu-btn:focus-visible{
+      outline:3px solid var(--orange);
+      outline-offset:3px;
     }
 
     /* Hero */
@@ -832,7 +855,7 @@
       .nav-links.open{display:flex}
       .nav-links a:not(.btn){padding:12px 10px}
       .nav-links .btn{margin-top:6px}
-      .menu-btn{display:flex}
+      .menu-btn{display:flex;align-items:center;justify-content:center}
       .nav > .desktop-cta{display:none}
     }
     @media (max-width: 640px){
@@ -1553,8 +1576,17 @@
         <a href="#faq">FAQ</a>
         <a class="btn btn-primary" href="https://wa.me/5521964224805?text=Ol%C3%A1%2C%20Cris!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20para%20meu%20pet." target="_blank" rel="noopener">Falar no WhatsApp</a>
       </nav>
-      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menu">
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navLinks"
+        aria-label="Abrir menu"
+      >
+        <svg viewBox="0 0 24 24" width="24" height="24"
+             fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" aria-hidden="true" focusable="false">
           <path d="M4 7h16M4 12h16M4 17h16"/>
         </svg>
       </button>

@@ -1,19 +1,23 @@
 TREINAMENTO PET CRIS ALVES — VERSÃO FINAL PARA ENTREGA AO CLIENTE
 
 Esta versão inclui:
-- Adestramento, Banho & Tosa e Hotel Pet
-- Curso de Adestramento “Em breve”
-- Formulário de agendamento que abre o WhatsApp com todos os dados preenchidos
+- Adestramento, Creche Pet, Hotel Pet e Banho & Tosa
+- Creche Pet: funcionamento das 08h às 17h
+- Hotel Pet: atendimento 24 horas
+- Atendimento no Rio de Janeiro (RJ)
+- Seção "Em breve: Cursos"
+- Seção "Antes do atendimento" com as informações que precisamos sobre o pet
+- Ficha de agendamento (bairro obrigatório) que abre o WhatsApp com todos os dados preenchidos
 - WhatsApp: (21) 96422-4805
 - Instagram: @adestramentocris
-- Fotos e vídeo reais enviados pela cliente
-- Ajustes responsivos para preservar o rosto da Cris e os pets
+- Fotos e vídeos reais enviados pela cliente (galeria completa com ampliação)
 - SEO básico, menu mobile e botão flutuante de WhatsApp
 
 Arquivos:
 - index.html
 - assets/
 - GUIA-PROJETO.md
+- LEIA-ME-ATUALIZACAO-CRECHE.md (detalhes da última atualização)
 
 PUBLICAÇÃO:
 Envie index.html e a pasta assets para a mesma pasta na hospedagem.

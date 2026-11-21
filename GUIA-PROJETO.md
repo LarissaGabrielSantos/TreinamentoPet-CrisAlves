@@ -196,3 +196,16 @@ A versão final foi ajustada para apresentação pública, removendo textos de b
 ### Observação final
 
 O site não inventa preços, endereço, horários, certificações, tempo de experiência, depoimentos nem garantias de resultado. Esses dados podem ser acrescentados quando forem fornecidos pela cliente.
+
+---
+
+## Atualização — Creche Pet, Hotel 24h e ficha do pet
+
+- Serviços agora: **adestramento, creche pet, hotel pet e banho e tosa**.
+- **Creche Pet:** 08h às 17h. **Hotel Pet:** atendimento 24 horas. Os dois horários aparecem com cores e
+  ícones diferentes (sol/laranja para a creche, lua/verde-escuro para o hotel).
+- **Região:** atendimento no Rio de Janeiro (RJ). O bairro passou a ser obrigatório na ficha de agendamento.
+- **Cursos:** o selo “Em breve: Curso de Adestramento” virou “Em breve: Cursos”.
+- Todas as fotos e vídeos foram substituídos pelo material real enviado pela cliente.
+
+Detalhes completos (mapa de arquivos, seções e campos do formulário): `LEIA-ME-ATUALIZACAO-CRECHE.md`.

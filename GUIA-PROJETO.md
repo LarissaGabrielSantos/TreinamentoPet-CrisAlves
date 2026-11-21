@@ -81,26 +81,27 @@ Conte o que seu pet precisa.
 
 ## 3. Layout (versão atual, após o redesenho)
 
-> As decisões abaixo substituem o layout original (DM Serif Display + Manrope, cards arredondados,
-> tela de carregamento e animações de entrada). Detalhes do redesenho em `LEIA-ME-REDESENHO.md`.
+> As decisões abaixo substituem o layout original (tela de carregamento, bolhas e brilhos decorativos,
+> animações de entrada e scroll travado). Detalhes do redesenho em `LEIA-ME-REDESENHO.md`.
 
-**Paleta (derivada do logo)**
-- Papel (fundo): #F7F3EC · Papel 2 (faixas): #EFE8DC
-- Texto: #242C28 · Texto secundário: #56605A · Linhas: #DCD4C6 / #BDB3A3
-- Verde da marca: #1E4434 (botões, títulos, faixa do Hotel) · Verde escuro: #15322A
-- Terracota (cor da patinha e da mão do logo): #C4713F para marcadores; #9E4F27 para texto
-- Código de horários: terracota = Creche (08h às 17h) · verde = Hotel (24 horas)
+**Paleta (marca + logo)**
+- Creme (fundo): #FBF6EE · Areia: #F4EBDD · Pêssego: #FDE4D0 · Sálvia clara: #E4ECDD
+- Verde da marca: #1E4434 (títulos, botões, faixa do Hotel) · Verde-escuro: #15322A (rodapé)
+- Laranja: #EC7A3A (botões de destaque, selos, faixa de cursos) · Laranja para texto: #A04B1A
+- Texto: #24302A · Texto secundário: #56605A
+- Código de horários: sol e laranja = Creche (08h às 17h) · lua e verde = Hotel (24 horas)
 
-**Fonte**
-- Archivo (variável), uma família só: títulos em largura condensada (80%) e peso 760; textos em largura normal.
+**Fontes**
+- Títulos: DM Serif Display (com itálico em destaques, como “Rio de Janeiro”).
+- Textos e interface: Archivo.
 
 **Estilo**
-- Fotos reais como protagonistas, com cantos quase retos (3px) e legendas descritivas.
-- Estrutura feita com linhas finas (fios) e alinhamento, sem cards, sombras ou gradientes decorativos.
-- Cada seção tem composição própria: abertura com foto sangrando à direita, índice de serviços em colunas,
-  Adestramento com duas fotos, Creche com tabela da rotina e vídeos, Hotel em faixa verde-escura,
-  passos numerados com as perguntas sobre o pet.
-- Botões retangulares (raio 4px); links de texto sublinhados em terracota.
+- Cada seção tem a sua cor: serviços em blocos coloridos, Creche em pêssego, Hotel em verde,
+  Banho & Tosa e Ficha do pet em sálvia, cursos em faixa laranja.
+- Fotos reais como protagonistas, com cantos arredondados (20 a 28px) e legendas descritivas.
+- Toques de personalidade com função: moldura laranja atrás da foto principal, colagem de duas fotos
+  no Adestramento, patinha do logo como marcador de lista, passos numerados em círculos laranja.
+- Botões arredondados, sem sombras, gradientes ou brilhos.
 
 **Mobile**
 - Menu com botão “Menu” e lista simples.

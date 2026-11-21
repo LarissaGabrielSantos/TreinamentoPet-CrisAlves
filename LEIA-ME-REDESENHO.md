@@ -14,18 +14,24 @@ mantendo todas as informações do negócio e todas as funcionalidades.
 | Faixa de texto rolando sem parar com ✦ | Movimento constante |
 | Parallax nas fotos e entrada animada de todos os blocos ao rolar | Efeitos de scroll artificiais |
 | Linha do tempo com rolagem travada (“Como começar”) | Scroll effect; virou uma lista numerada simples |
-| Cards com sombra, cantos muito arredondados, ícones genéricos e etiquetas em caixa-alta com tracinho | Padrão de template |
-| Efeito de vidro (blur) no cabeçalho, botões em pílula com brilho ao passar o mouse | Padrão de template |
+| Cards com sombra, ícones genéricos e etiquetas em caixa-alta com tracinho em toda seção | Padrão de template |
+| Efeito de vidro (blur) no cabeçalho e brilho animado nos botões | Padrão de template |
 | Seções “Diferenciais” e “Contato” | Repetiam o conteúdo de “Sobre” e do agendamento |
 | Seção com 4 cards de perguntas + faixa escura | As perguntas foram integradas ao passo 2 de “Como começar” |
 | `codigo-timeline/` e `LEIA-ME-TIMELINE.md` | Documentavam o efeito de scroll removido |
 
 ## Nova identidade
 
-- **Paleta derivada do logo:** verde da marca, grafite, terracota (cor da patinha e da mão) e papel creme.
-- **Tipografia:** Archivo, uma família com largura variável (títulos condensados e firmes, texto normal).
-- **Estrutura com fios finos e alinhamento**, no lugar de cards e sombras.
-- **Fotos como protagonistas**, sem molduras nem rotação, com legendas que descrevem o que aparece.
+Uma primeira versão do redesenho ficou “seca” demais (muito bege, títulos estreitos, poucos elementos
+com charme) e foi aquecida a pedido da cliente, sem trazer de volta os clichês removidos.
+
+- **Cor:** cada seção tem fundo próprio — creme, areia, pêssego (Creche), verde (Hotel e rodapé),
+  sálvia (Banho & Tosa e Ficha do pet) e laranja (faixa de cursos).
+- **Tipografia:** DM Serif Display nos títulos, com itálico em destaques, e Archivo nos textos.
+- **Charme com função:** moldura laranja atrás da foto principal, colagem de fotos no Adestramento,
+  selos de horário com sol (creche) e lua (hotel), patinha do logo como marcador de lista e passos
+  numerados em círculos laranja.
+- **Fotos como protagonistas**, com cantos arredondados e legendas que descrevem o que aparece.
 - **Composições diferentes por seção**, para fugir da repetição.
 - **Logo recortado** (`assets/logo-cris-alves.webp`): só as margens vazias do arquivo original foram
   removidas, então o desenho ficou legível no cabeçalho. Os arquivos originais do logo continuam em `assets/`.

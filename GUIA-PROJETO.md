@@ -81,8 +81,8 @@ Conte o que seu pet precisa.
 
 ## 3. Layout (versão atual, após o redesenho)
 
-> As decisões abaixo substituem o layout original (tela de carregamento, bolhas e brilhos decorativos,
-> animações de entrada e scroll travado). Detalhes do redesenho em `LEIA-ME-REDESENHO.md`.
+> As decisões abaixo substituem o layout original (bolhas e brilhos decorativos, animações de entrada
+> e scroll travado). A tela de carregamento original foi mantida. Detalhes do redesenho em `LEIA-ME-REDESENHO.md`.
 
 **Paleta (marca + logo)**
 - Creme (fundo): #FBF6EE · Areia: #F4EBDD · Pêssego: #FDE4D0 · Sálvia clara: #E4ECDD
@@ -113,7 +113,8 @@ Conte o que seu pet precisa.
 **Interações**
 - Somente as funcionais: mudança de cor em botões e links, abertura do menu, perguntas frequentes,
   ampliação das fotos da galeria.
-- Sem animações de entrada, parallax, scroll travado ou elementos em movimento contínuo.
+- Tela de carregamento original (patinhas girando ao redor do logo), mantida a pedido da cliente.
+- Sem animações de entrada, parallax, scroll travado ou elementos em movimento contínuo no site.
 - Respeito a `prefers-reduced-motion`.
 
 ## 4. Diferenciais para o nicho

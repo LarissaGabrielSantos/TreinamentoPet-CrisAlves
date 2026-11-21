@@ -7,7 +7,6 @@ mantendo todas as informações do negócio e todas as funcionalidades.
 
 | Elemento | Por quê |
 |---|---|
-| Tela de carregamento com patinhas girando (“Preparando as patinhas...”) | Decorativa e atrasava a exibição do conteúdo em cerca de 1 s |
 | Barra de progresso colorida no topo | Decoração sem função |
 | Fundo com manchas de gradiente, círculos e bolhas flutuantes | Clichê visual |
 | Foto principal em formato de “bolha” que mudava de forma | Efeito artificial; a foto agora aparece inteira e grande |
@@ -19,6 +18,13 @@ mantendo todas as informações do negócio e todas as funcionalidades.
 | Seções “Diferenciais” e “Contato” | Repetiam o conteúdo de “Sobre” e do agendamento |
 | Seção com 4 cards de perguntas + faixa escura | As perguntas foram integradas ao passo 2 de “Como começar” |
 | `codigo-timeline/` e `LEIA-ME-TIMELINE.md` | Documentavam o efeito de scroll removido |
+
+## Tela de carregamento
+
+A tela de carregamento (logo com patinhas girando e “Preparando as patinhas...”) chegou a ser removida no
+redesenho, mas foi **restaurada a pedido da cliente, exatamente como era**: mesmo código, mesmas cores e
+mesmo tempo (some cerca de 0,9 s depois que a página termina de carregar). A única diferença é a fonte da
+frase pequena, que usa a fonte de texto atual do site.
 
 ## Nova identidade
 

@@ -79,41 +79,40 @@ Quero falar com a Cris.
 **CTA final:**  
 Conte o que seu pet precisa.
 
-## 3. Layout
+## 3. Layout (versão atual, após o redesenho)
 
-**Paleta**
-- Verde escuro: #214C3A
-- Verde profundo: #173A2D
-- Verde claro: #DFF0DF / #EEF7E9
-- Laranja: #EF7D32
-- Laranja claro: #FFE4CF
-- Fundo creme: #FFFAF2
-- Texto: #1F2B26
+> As decisões abaixo substituem o layout original (DM Serif Display + Manrope, cards arredondados,
+> tela de carregamento e animações de entrada). Detalhes do redesenho em `LEIA-ME-REDESENHO.md`.
 
-**Fontes**
-- Títulos: DM Serif Display
-- Textos/UI: Manrope
+**Paleta (derivada do logo)**
+- Papel (fundo): #F7F3EC · Papel 2 (faixas): #EFE8DC
+- Texto: #242C28 · Texto secundário: #56605A · Linhas: #DCD4C6 / #BDB3A3
+- Verde da marca: #1E4434 (botões, títulos, faixa do Hotel) · Verde escuro: #15322A
+- Terracota (cor da patinha e da mão do logo): #C4713F para marcadores; #9E4F27 para texto
+- Código de horários: terracota = Creche (08h às 17h) · verde = Hotel (24 horas)
+
+**Fonte**
+- Archivo (variável), uma família só: títulos em largura condensada (80%) e peso 760; textos em largura normal.
 
 **Estilo**
-- Natural, acolhedor e profissional.
-- Cantos arredondados, bastante respiro e cards claros.
-- Verde como base de confiança e laranja como destaque.
-- Fotos reais ocupando áreas grandes.
-- Vídeo em seção de fundo verde escuro.
-- Botões arredondados e microinterações discretas.
+- Fotos reais como protagonistas, com cantos quase retos (3px) e legendas descritivas.
+- Estrutura feita com linhas finas (fios) e alinhamento, sem cards, sombras ou gradientes decorativos.
+- Cada seção tem composição própria: abertura com foto sangrando à direita, índice de serviços em colunas,
+  Adestramento com duas fotos, Creche com tabela da rotina e vídeos, Hotel em faixa verde-escura,
+  passos numerados com as perguntas sobre o pet.
+- Botões retangulares (raio 4px); links de texto sublinhados em terracota.
 
 **Mobile**
-- Menu hambúrguer.
-- CTAs com largura total.
-- Hero em uma coluna.
-- Galeria reorganizada verticalmente.
+- Menu com botão “Menu” e lista simples.
+- Uma coluna, com botões de largura total.
+- Vídeos da creche lado a lado; galeria em pares.
 - Botão flutuante de WhatsApp.
 - Vídeo com `playsinline`, controles e carregamento por metadata.
 
-**Microinterações**
-- Elevação leve em cards e botões.
-- Entrada suave dos blocos ao rolar a página.
-- Zoom discreto nas fotos da galeria.
+**Interações**
+- Somente as funcionais: mudança de cor em botões e links, abertura do menu, perguntas frequentes,
+  ampliação das fotos da galeria.
+- Sem animações de entrada, parallax, scroll travado ou elementos em movimento contínuo.
 - Respeito a `prefers-reduced-motion`.
 
 ## 4. Diferenciais para o nicho

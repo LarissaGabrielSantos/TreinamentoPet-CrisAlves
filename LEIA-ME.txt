@@ -11,13 +11,15 @@ Esta versão inclui:
 - WhatsApp: (21) 96422-4805
 - Instagram: @adestramentocris
 - Fotos e vídeos reais enviados pela cliente (galeria completa com ampliação)
+- Visual próprio derivado do logo, sem animações decorativas
 - SEO básico, menu mobile e botão flutuante de WhatsApp
 
 Arquivos:
 - index.html
 - assets/
 - GUIA-PROJETO.md
-- LEIA-ME-ATUALIZACAO-CRECHE.md (detalhes da última atualização)
+- LEIA-ME-ATUALIZACAO-CRECHE.md (fotos, vídeos, Creche Pet e ficha do pet)
+- LEIA-ME-REDESENHO.md (redesenho visual e de textos)
 
 PUBLICAÇÃO:
 Envie index.html e a pasta assets para a mesma pasta na hospedagem.
